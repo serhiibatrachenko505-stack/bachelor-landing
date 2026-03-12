@@ -1,0 +1,5 @@
+/* Minimal normalize / reset (enough for lab start) */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+a { color: inherit; }
+ul { margin: 0; padding-left: 20px; }

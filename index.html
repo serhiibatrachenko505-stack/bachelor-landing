@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Bachelor Thesis — Nutrition App (Flutter + SQLite)</title>
+  <meta name="description" content="Landing page for bachelor thesis: Flutter nutrition app with calorie and vitamin calculators, SQLite storage and user account module." />
+  <meta name="keywords" content="Flutter, Dart, SQLite, nutrition, calories, vitamins, diet plan, mobile app" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Canonical: replace USERNAME and repo name after GitHub Pages publish -->
+  <link rel="canonical" href="https://USERNAME.github.io/bachelor-landing/" />
+
+  <!-- Open Graph (social preview) -->
+  <meta property="og:title" content="Bachelor Thesis — Nutrition App (Flutter + SQLite)" />
+  <meta property="og:description" content="Flutter nutrition app with calorie & vitamin calculators, local SQLite database and user cabinet." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://USERNAME.github.io/bachelor-landing/" />
+  <!-- No og:image for now -->
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Nutrition Mobile App (Flutter + SQLite)",
+    "description": "Bachelor thesis landing page: Flutter nutrition app with calorie and vitamin calculators, diet plan module and local SQLite storage.",
+    "inLanguage": ["uk", "en"],
+    "keywords": ["Flutter", "Dart", "SQLite", "Nutrition", "Calories", "Vitamins"],
+    "author": {
+      "@type": "Person",
+      "name": "Serhii Batrachenko"
+    }
+  }
+  </script>
+</head>
+
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#top">Bachelor Landing</a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#goal">Goal</a>
+      <a href="#tasks">Tasks</a>
+      <a href="#method">Methodology</a>
+      <a href="#results">Results</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="container">
+      <h1>Bachelor Thesis: Nutrition App</h1>
+
+      <p class="subtitle">
+        One-page presentation of a Flutter mobile application prototype with local SQLite database,
+        macro (calorie) calculator and vitamin calculators.
+      </p>
+
+      <div class="thesis-titles">
+        <p><strong>UA:</strong> Мобільний застосунок для розрахунку КБЖУ та вітамінів на базі Flutter і SQLite</p>
+        <p><strong>EN:</strong> Mobile App for Macro & Vitamin Calculation based on Flutter and SQLite</p>
+      </div>
+
+      <p class="short-desc">
+        <strong>Short description (≤300 chars):</strong>
+        Flutter mobile nutrition app prototype with user account, SQLite storage, macro calculator and vitamin calculators (single and daily modes). Includes diet plan placeholder module.
+      </p>
+
+      <p class="keywords">
+        <strong>Keywords:</strong> Flutter, Dart, SQLite, nutrition, calories, vitamins, diet plan, mobile application
+      </p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Relevance</h2>
+      <p>
+        Nutrition tracking requires accurate calculations and a convenient interface. A mobile application allows users
+        to quickly estimate energy and nutrient intake and analyze vitamin content based on food portions.
+      </p>
+    </div>
+  </section>
+
+  <section id="goal" class="section">
+    <div class="container">
+      <h2>Goal</h2>
+      <p>
+        Develop a prototype of a mobile nutrition application using Flutter with local SQLite storage, authentication,
+        macro (Kcal/P/F/C) calculation and vitamin calculation modules.
+      </p>
+    </div>
+  </section>
+
+  <section id="tasks" class="section">
+    <div class="container">
+      <h2>Main tasks (3–5)</h2>
+      <ul>
+        <li>Design and implement SQLite database schema and data access layer (DAO).</li>
+        <li>Implement authentication (register/login) with password hashing (salt + SHA-256).</li>
+        <li>Develop macro calculator: search foods, add portions, calculate total Kcal/P/F/C.</li>
+        <li>Develop vitamin calculators: single product mode and daily mode.</li>
+        <li>Create user cabinet (profile data and edit actions) and prepare a diet plan module placeholder.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="method" class="section">
+    <div class="container">
+      <h2>Methodology</h2>
+      <p>
+        The application uses a layered structure (models/DAO/services/UI). Calculations operate on portion input (grams)
+        using per-100g reference values stored in SQLite. Vitamins are retrieved using a relation table and JOIN queries.
+      </p>
+    </div>
+  </section>
+
+  <section id="results" class="section">
+    <div class="container">
+      <h2>Expected results</h2>
+      <ul>
+        <li>Working offline-first Flutter prototype with SQLite database.</li>
+        <li>Macro calculation for multiple foods and portions.</li>
+        <li>Vitamin calculation for a single product and daily list with share percentage.</li>
+        <li>Public repository with clean history and documentation.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacts" class="section">
+    <div class="container">
+      <h2>Contacts</h2>
+      <ul>
+        <li><strong>Student:</strong> Serhii Batrachenko</li>
+        <li><strong>Email:</strong> your.email@example.com</li>
+        <li><strong>Flutter app repository:</strong> <a href="#" rel="noopener">link</a></li>
+        <li><strong>Full thesis text:</strong> <a href="#" rel="noopener">link (optional)</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 — Bachelor thesis landing page</p>
+  </div>
+</footer>
+</body>
+</html>
